@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--palette-primary-500);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 20rem;
+}
