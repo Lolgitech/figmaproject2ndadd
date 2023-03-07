@@ -1,5 +1,3 @@
-
-
 //import { HashRouter as Router, Routes, Route } from "react";
 
 //import AboutPage from "./routes/about/AboutPage.jsx";
@@ -10,12 +8,9 @@
 //import FirstProject from "./routes/projects/first-project/FirstProjectPage";
 //import SecondProject from "./routes/projects/second-project/SecondProjectPage";
 
-
-import './App.css'
+import "./App.css";
 
 function App() {
-
-  
   return (
     <body>
       <header>
@@ -39,6 +34,7 @@ function App() {
           </ul>
         </nav>
       </header>
+
       <main>
         <section className="Hero">
           <h2 className="section title">
@@ -82,10 +78,16 @@ function App() {
             <a href="" className="btn btn-primary">
               Email
             </a>
-            <a href="" className="btn btn-primary">
+            <a
+              href="https://www.facebook.com/remi.benbow"
+              className="btn btn-primary"
+            >
               Facebook
             </a>
-            <a href="" className="btn btn-primary">
+            <a
+              href="https://www.instagram.com/remibenbow"
+              className="btn btn-primary"
+            >
               Instagram
             </a>
           </div>
@@ -96,9 +98,13 @@ function App() {
           </header>
           <div className="products">
             <div className="product">
+              <img
+                src="./assets/images/75262127_10162356367435007_7480720663167107072_n.jpg"
+                alt=""
+                className="product__img"
+              />
               <div className="product__content">
-                <img src="" alt="" className="product__img" />
-                <h3 className="product__title">bananas for coconuts</h3>
+                <h3 className="product__title">Drum kit</h3>
 
                 <p className="fineprint">True Quality.</p>
                 <p>
@@ -109,80 +115,120 @@ function App() {
               </div>
             </div>
             <div className="product">
-              <img src="" alt="" className="product__img" />
-
-              <h3 className="product__title">coconuts for bananas</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo officiis asperiores nobis ducimus repellat fugit natus
-                facilis perferendis voluptatibus repudiandae!
-              </p>
-              <p className="fineprint">cetified</p>
+              <img
+                src="./assets/images/75262127_10162356367435007_7480720663167107072_n.jpg"
+                alt=""
+                className="product__img"
+              />
+              <div className="product__content">
+                <h3 className="product__title">Story tell</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo officiis asperiores nobis ducimus repellat fugit
+                  natus facilis perferendis voluptatibus repudiandae!
+                </p>
+                <p className="fineprint">cetified</p>
+              </div>
             </div>
             <div className="product">
+              <img
+                src="./assets/images/75262127_10162356367435007_7480720663167107072_n.jpg"
+                alt=""
+                className="product__img"
+              />
               <div className="product__content">
-                <h3 className="product__title"> Mucho Grando Amigo</h3>
-                <img src="" alt="" className="product__img" />
+                <h3 className="product__title">Hero Card</h3>
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptas labore vero commodi esse, impedit sapiente!
                 </p>
-                <p className="fineprint">super quality</p>
-
-                <div className="btn group">
-                  <a href="" className="btn btn-accent">
-                    see all my work
-                  </a>
-                  <div className="btn-group">
-                    <a href="" className="btn btn-primary">
-                      Email
-                    </a>
-                    <a href="" className="btn btn-primary">
-                      Facebook
-                    </a>
-                    <a href="" className="btn btn-primary">
-                      Instagram
-                    </a>
-                  </div>
-                </div>
+                <p className="fineprint">
+                  <strong>super quality</strong>
+                </p>
               </div>
+            </div>
+
+            <p className="mb-0">If you want to know more about me:</p>
+            <div className="btn group">
+              <a href="" className="btn btn-accent">
+                see all my work
+              </a>
+            </div>
+            <div className="btn-group">
+              <a href="" className="btn btn-primary">
+                Connect with me through Email
+              </a>
+              <a
+                href="https://www.facebook.com/remi.benbow"
+                className="btn btn-primary"
+              >
+                lets hook up on Facebook
+              </a>
+              <a
+                href="https://www.linkedin.com/in/remi-benbow-0a3a5210b/"
+                className="btn btn-primary"
+              >
+                Add me on LinkedID
+              </a>
             </div>
           </div>
         </section>
-
-        <footer>
-          <ul className="footer-nav">
-            <li>
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Connect</a>
-              <a href="#">Links</a>
-            </li>
-          </ul>
-          <ul className="footer-social">
-            <li>
-              <a href=""></a>
-            </li>
-            <li>
-              <a href=""></a>
-            </li>
-            <li>
-              <a href=""></a>
-            </li>
-            <li>
-              <a href=""></a>
-            </li>
-          </ul>
-        </footer>
       </main>
+      <footer>
+        <ul className="footer-nav">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Connect</a>
+          </li>
+          <li>
+            <a href="#">Links</a>
+          </li>
+        </ul>
+        <ul className="footer-social">
+          <li>
+            <a
+              className="social-link"
+              href="https://www.facebook.com/remi.benbow"
+            >
+              <img
+                src="./assets/images/fblogo.png"
+                className="social-icon"
+                alt=""
+                aria-label="facebook"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="social-link" href="https://www.instagram.com/remibenbow">
+              <img
+                src="./assets/images/fblogo.png"
+                className="social-icon"
+                alt=""
+                aria-label="instagram"
+              />
+            </a>
+          </li>
+          <li>
+            <a href=""></a>
+          </li>
+          <li>
+            <a href=""></a>
+          </li>
+        </ul>
+      </footer>
     </body>
   );
 }
 
-export default App
+export default App;
 
-
-// (
+{
+  /* // (
 //   <Router>
 //     <Routes>
 //       <Route path="/" element={<Layout />}>
@@ -196,5 +242,5 @@ export default App
 
 //       <Route path="*" element={<h1>404 Error</h1>} />
 //     </Routes>
-//   </Router>
-// );
+//   </Router> */
+}
