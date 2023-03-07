@@ -185,9 +185,9 @@ nav a:focus {
   margin: 0.5em 0;
   border-radius: 0.35em;
 }
-.btn + .btn {
+/* .btn + .btn {
   margin-left: 0.5em;
-}
+} */
 
 .btn-primary {
   background: var(--clr-primary);
@@ -237,7 +237,9 @@ nav a:focus {
 }
 
 .order-online {
-  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
 }
 
 .products {

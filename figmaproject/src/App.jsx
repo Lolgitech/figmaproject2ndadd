@@ -226,6 +226,13 @@ function App() {
           <li>
             <a href="#">Links</a>
           </li>
+          <li>
+            <a href="tel:93051536">Or call me for a chat</a>
+          </li>
+          <li>
+            <label for="skills">Web dev skills </label>
+            <progress id="skills" value="30" max="100"></progress>
+          </li>
         </ul>
         <ul className="footer-social">
           <li>
@@ -259,6 +266,7 @@ function App() {
           </li>
         </ul>
       </footer>
+        
     </body>
   );
 }
